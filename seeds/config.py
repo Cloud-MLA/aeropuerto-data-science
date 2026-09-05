@@ -24,11 +24,12 @@ INCIDENCIA_ID_MIN, INCIDENCIA_ID_MAX = 1, 30_000
 
 # ---------- Volúmenes a generar ----------
 N_AEROLINEAS = 24              # catálogo real del PDF de BD1
-N_AERONAVES = 1_000
-N_ASIENTOS_TOTAL = 30_000      # ≥20k para MS2
+N_AERONAVES = 150              # flota realista para 24 aerolíneas
+                               # → ~30k asientos totales (≥20k para MS2) ✅
 N_EMPLEADOS = 5_000            # 60% tripulacion, 40% operativo_tierra
+PCT_EMPLEADOS_TRIPULACION = 0.60
 N_VUELOS = 25_000              # ≥20k para MS2
-N_OPERA_TRIPULACION = 50_000   # ~2 tripulantes por vuelo promedio
+TRIPULANTES_POR_VUELO_PROMEDIO = 4   # → ~100k opera_tripulacion (N–M)
 
 N_PERSONAS = 60_000
 N_PASAJEROS = 60_000           # 1:1 con persona (jerarquía IsA)
