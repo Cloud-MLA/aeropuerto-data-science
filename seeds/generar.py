@@ -7,9 +7,13 @@ Uso:
     python generar.py --ms 3     # solo MS3 (requiere MS2 previo)
 """
 import argparse
+import random
 import sys
 
+from faker import Faker
+
 import config
+from generators import ms2_vuelos
 
 
 def preparar_directorios() -> None:
@@ -17,8 +21,17 @@ def preparar_directorios() -> None:
         d.mkdir(parents=True, exist_ok=True)
 
 
-def generar_ms2() -> None:
-    print("[MS2] generador aun no implementado (llega en el proximo PR)")
+def _seeds_deterministas() -> tuple[random.Random, Faker]:
+    """Prepara un RNG y un Faker con el SEED fijo (reproducible byte-a-byte)."""
+    rng = random.Random(config.SEED)
+    faker = Faker("es_ES")
+    Faker.seed(config.SEED)
+    return rng, faker
+
+
+def generar_ms2() -> dict:
+    rng, faker = _seeds_deterministas()
+    return ms2_vuelos.generar(rng, faker)
 
 
 def generar_ms1() -> None:
