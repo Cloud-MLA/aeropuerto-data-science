@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Proyecto Aeropuerto Jorge Chavez ----
+
+# Salida generada por seeds/ — no versionar (se regenera con SEED fijo)
+seeds/output/
+
+# Credenciales AWS y variables sensibles
+.aws/
+*.pem
+
+# SO / IDE (extras)
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+
