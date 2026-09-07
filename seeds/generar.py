@@ -13,7 +13,7 @@ import sys
 from faker import Faker
 
 import config
-from generators import ms2_vuelos
+from generators import ms1_pasajeros, ms2_vuelos
 
 
 def preparar_directorios() -> None:
@@ -34,8 +34,9 @@ def generar_ms2() -> dict:
     return ms2_vuelos.generar(rng, faker)
 
 
-def generar_ms1() -> None:
-    print("[MS1] generador aun no implementado (llega en el proximo PR)")
+def generar_ms1() -> dict:
+    rng, faker = _seeds_deterministas()
+    return ms1_pasajeros.generar(rng, faker)
 
 
 def generar_ms3() -> None:
