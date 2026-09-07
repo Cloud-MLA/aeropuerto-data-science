@@ -44,6 +44,7 @@ N_ASIGNACIONES = 40_000        # vuelo ↔ recurso
 
 # ---------- Distribuciones de negocio ----------
 PCT_CATEGORIA_MIGRATORIA = {"Nacional": 0.60, "Internacional": 0.35, "Transito": 0.05}
+PCT_TIPO_DOCUMENTO = {"DNI": 0.70, "Pasaporte": 0.25, "Carnet de Extranjeria": 0.05}
 PCT_ESTADO_VUELO = {
     "Programado": 0.30,
     "Embarcando": 0.05,
