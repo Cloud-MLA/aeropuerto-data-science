@@ -53,7 +53,7 @@ Con el mismo `SEED` (fijo en `config.py`), la salida es **byte a byte reproducib
 
 ## Cómo cargar los datos en cada BD
 
-### MS1 — MySQL (Dev A)
+### MS1 — MySQL (Guillermo)
 
 ```sql
 LOAD DATA LOCAL INFILE 'output/ms1/persona.csv'
@@ -63,7 +63,7 @@ IGNORE 1 LINES;
 -- repetir por cada tabla en el orden: persona, categoria_migratoria, pasajero, ticket, checkin, equipaje
 ```
 
-### MS2 — PostgreSQL (Dev B)
+### MS2 — PostgreSQL (Mariano)
 
 ```sql
 \COPY aerolinea FROM 'output/ms2/aerolinea.csv' CSV HEADER;
@@ -76,7 +76,7 @@ IGNORE 1 LINES;
 \COPY opera_tripulacion FROM 'output/ms2/opera_tripulacion.csv' CSV HEADER;
 ```
 
-### MS3 — MongoDB (Dev C)
+### MS3 — MongoDB (Edinson)
 
 ```bash
 mongoimport --db infra_db --collection recursos     --file output/ms3/recursos.jsonl
