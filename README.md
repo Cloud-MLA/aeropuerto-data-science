@@ -15,10 +15,10 @@ seeds/  →  MS1/MS2/MS3 (cargan 20k+ en sus BD)  →  ingesta/  →  S3  →  G
 
 | Carpeta | Qué es | Responsable |
 |---|---|---|
-| `seeds/` | Generador Python de data ficticia con `SEED` fijo. Produce CSV/JSONL cruzables entre MS1, MS2 y MS3. Dev A/B/C lo usan para cargar sus 20k+ registros. | Dev D |
-| `ingesta/` | 3 contenedores Docker de ingesta (uno por microservicio con BD). Estrategia **pull del 100%**: leen la BD entera y suben archivos a S3. | `ingesta-ms1` Dev A · `ingesta-ms2` Dev B · `ingesta-ms3` Dev C |
-| `glue/` | Scripts y DDL para crear la base `aeropuerto_lake` y los crawlers en AWS Glue. | Dev D |
-| `athena/` | Las 5 consultas SQL (Q1–Q5) + las 2 vistas (`vw_recaudacion_tuua`, `vw_retrasos_hora_punta`). | Dev D |
+| `seeds/` | Generador Python de data ficticia con `SEED` fijo. Produce CSV/JSONL cruzables entre MS1, MS2 y MS3. Guillermo, Mariano y Edinson lo usan para cargar sus 20k+ registros. | Fabricio |
+| `ingesta/` | 3 contenedores Docker de ingesta (uno por microservicio con BD). Estrategia **pull del 100%**: leen la BD entera y suben archivos a S3. | `ingesta-ms1` Guillermo · `ingesta-ms2` Mariano · `ingesta-ms3` Edinson |
+| `glue/` | Scripts y DDL para crear la base `aeropuerto_lake` y los crawlers en AWS Glue. | Fabricio |
+| `athena/` | Las 5 consultas SQL (Q1–Q5) + las 2 vistas (`vw_recaudacion_tuua`, `vw_retrasos_hora_punta`). | Fabricio |
 
 ---
 
@@ -43,12 +43,12 @@ Del [enunciado del proyecto](https://github.com/btoroled/cloud-computing-proyect
 
 ---
 
-## Cómo empezar (Dev A / B / C)
+## Cómo empezar (Guillermo, Mariano, Edinson)
 
 Necesitas los CSV/JSONL de `seeds/` para poder cargar tus 20k+ registros con IDs que crucen con los otros microservicios. Ver [`seeds/README.md`](seeds/README.md).
 
-## Cómo empezar (Dev D)
+## Cómo empezar (Fabricio)
 
 1. Terminar `seeds/` — bloquea al equipo.
-2. Cuando A/B/C tengan datos cargados, levantar `ingesta/` para poblar el bucket S3.
+2. Cuando Guillermo, Mariano y Edinson tengan datos cargados, levantar `ingesta/` para poblar el bucket S3.
 3. Crear catálogo Glue, luego portar Q1–Q5 a Athena, luego crear las 2 vistas.
