@@ -1,0 +1,33 @@
+     grupo     |        categoria         | vuelos | retraso_promedio_min | desv_estandar_min |  p50  |  p90  |  p99   
+---------------+--------------------------+--------+----------------------+-------------------+-------+-------+--------
+ GLOBAL        | Todo el periodo          |   9149 |                28.12 |             28.19 | 20.00 | 77.00 | 116.00
+ POR AEROLINEA | American Airlines        |    338 |                32.33 |             30.57 | 22.00 | 88.60 | 113.26
+ POR AEROLINEA | United Airlines          |    309 |                32.23 |             31.46 | 21.00 | 90.40 | 118.60
+ POR AEROLINEA | Delta Air Lines          |    362 |                29.77 |             30.44 | 20.00 | 86.00 | 114.39
+ POR AEROLINEA | Aeromexico               |    309 |                29.43 |             29.72 | 21.00 | 80.20 | 118.92
+ POR AEROLINEA | JetSMART                 |    333 |                29.04 |             29.06 | 19.00 | 79.00 | 118.00
+ POR AEROLINEA | Air France               |    337 |                28.92 |             29.07 | 21.00 | 83.00 | 116.64
+ POR AEROLINEA | GOL                      |    302 |                28.89 |             28.49 | 20.00 | 79.00 | 113.98
+ POR AEROLINEA | Boliviana de Aviacion    |    323 |                28.79 |             27.73 | 20.00 | 73.60 | 112.78
+ POR AEROLINEA | Copa Airlines            |    951 |                28.78 |             27.68 | 21.00 | 73.00 | 116.50
+ POR AEROLINEA | Air Europa               |    304 |                28.65 |             28.49 | 20.00 | 77.00 | 114.97
+ POR AEROLINEA | Iberia                   |    321 |                28.64 |             28.52 | 21.00 | 80.00 | 113.40
+ POR AEROLINEA | Star Peru                |    333 |                28.39 |             27.84 | 20.00 | 79.60 | 116.36
+ POR AEROLINEA | Qatar Airways            |    328 |                28.12 |             26.89 | 21.00 | 69.30 | 112.73
+ POR AEROLINEA | Wingo                    |    313 |                28.04 |             26.67 | 20.00 | 74.80 | 114.00
+ POR AEROLINEA | Ethiopian Airlines       |    312 |                28.02 |             27.73 | 19.00 | 75.80 | 112.78
+ POR AEROLINEA | Avianca                  |    313 |                27.57 |             28.48 | 19.00 | 76.00 | 116.88
+ POR AEROLINEA | Air Canada               |    318 |                27.45 |             27.99 | 21.00 | 77.90 | 115.15
+ POR AEROLINEA | LATAM Airlines Peru      |   1023 |                27.37 |             28.10 | 19.00 | 76.80 | 114.78
+ POR AEROLINEA | British Airways          |    361 |                27.28 |             27.94 | 18.00 | 75.00 | 112.60
+ POR AEROLINEA | KLM Royal Dutch Airlines |    322 |                26.43 |             26.95 | 19.00 | 66.00 | 114.58
+ POR AEROLINEA | LEVEL                    |    341 |                25.86 |             26.49 | 19.00 | 71.00 | 114.40
+ POR AEROLINEA | Sky Airline Peru         |    303 |                25.30 |             24.71 | 19.00 | 63.80 | 107.94
+ POR AEROLINEA | Aerolineas Argentinas    |    337 |                25.10 |             26.47 | 18.00 | 70.20 | 113.92
+ POR AEROLINEA | Lufthansa                |    356 |                25.00 |             27.71 | 16.00 | 70.50 | 116.00
+ POR FRANJA    | Noche (18-24)            |   3507 |                29.18 |             28.94 | 20.00 | 80.00 | 115.94
+ POR FRANJA    | Manana (6-12)            |   3618 |                27.65 |             27.84 | 20.00 | 75.00 | 116.00
+ POR FRANJA    | Tarde (12-18)            |   1038 |                27.47 |             28.10 | 19.00 | 77.00 | 116.00
+ POR FRANJA    | Madrugada (0-6)          |    986 |                26.72 |             26.69 | 19.00 | 71.50 | 112.15
+(29 rows)
+

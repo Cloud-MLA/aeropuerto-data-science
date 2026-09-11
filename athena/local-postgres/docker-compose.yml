@@ -1,0 +1,31 @@
+# Postgres local efimero para validar las 5 queries de MS5 antes de portarlas
+# a Athena en F2. Este compose NO forma parte de la infra de produccion — solo
+# corre en la maquina de Fabricio (o cualquiera del equipo que quiera reproducir).
+#
+# Uso:
+#   1) Correr `python ../../seeds/generar.py` para producir los CSV/JSONL.
+#   2) `docker compose up -d` para levantar Postgres (schema se aplica solo).
+#   3) `bash load.sh` para cargar los CSVs (aplana MS3 y hace \COPY de todo).
+#   4) `bash run_queries.sh` para ejecutar Q1..Q5 y guardar la salida en ../expected/.
+#   5) `docker compose down -v` cuando termines.
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: aeropuerto-lake-local
+    environment:
+      POSTGRES_USER: aeropuerto
+      POSTGRES_PASSWORD: aeropuerto_dev
+      POSTGRES_DB: aeropuerto_lake
+    ports:
+      - "5432:5432"
+    volumes:
+      # Auto-crear los 3 schemas al primer boot.
+      - ./schema.sql:/docker-entrypoint-initdb.d/01_schema.sql:ro
+      # Montar los CSVs generados por seeds/ para que \COPY los lea desde el contenedor.
+      - ../../seeds/output:/csv:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U aeropuerto -d aeropuerto_lake"]
+      interval: 2s
+      timeout: 3s
+      retries: 20

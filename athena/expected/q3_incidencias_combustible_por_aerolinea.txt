@@ -1,0 +1,28 @@
+     ruc     |        aerolinea         |    alianza    | total_vuelos | incidencias_combustible | vuelos_afectados | tasa_por_1000_vuelos | pct_vuelos_afectados 
+-------------+--------------------------+---------------+--------------+-------------------------+------------------+----------------------+----------------------
+ 20100000001 | LATAM Airlines Peru      | Ninguna       |         2704 |                    3297 |             2410 |               891.27 |                89.13
+ 20100000006 | Copa Airlines            | Star Alliance |         2604 |                    3255 |             2341 |               899.00 |                89.90
+ 20100000007 | Air Canada               | Star Alliance |          870 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000003 | JetSMART                 | Ninguna       |          936 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000017 | LEVEL                    | Ninguna       |          924 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000023 | Air Europa               | SkyTeam       |          880 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000024 | Qatar Airways            | Oneworld      |          904 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000009 | Aeromexico               | SkyTeam       |          882 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000018 | GOL                      | Ninguna       |          875 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000008 | United Airlines          | Star Alliance |          838 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000021 | Ethiopian Airlines       | Star Alliance |          851 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000014 | Iberia                   | Oneworld      |          932 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000011 | KLM Royal Dutch Airlines | SkyTeam       |          858 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000013 | Aerolineas Argentinas    | SkyTeam       |          893 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000015 | American Airlines        | Oneworld      |          904 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000010 | Air France               | SkyTeam       |          936 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000022 | Lufthansa                | Star Alliance |          935 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000016 | British Airways          | Oneworld      |          917 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000002 | Sky Airline Peru         | Ninguna       |          881 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000012 | Delta Air Lines          | SkyTeam       |          928 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000020 | Wingo                    | Ninguna       |          924 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000004 | Star Peru                | Ninguna       |          923 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000019 | Boliviana de Aviacion    | Ninguna       |          849 |                       0 |                0 |                 0.00 |                 0.00
+ 20100000005 | Avianca                  | Star Alliance |          852 |                       0 |                0 |                 0.00 |                 0.00
+(24 rows)
+

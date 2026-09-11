@@ -1,0 +1,10 @@
+       franja        |     tipo      | vuelos | vuelos_retrasados | pct_retrasados | retraso_promedio_min | retraso_p90_min 
+---------------------+---------------+--------+-------------------+----------------+----------------------+-----------------
+ HORA PUNTA (06-09h) | Internacional |   4849 |              1884 |          38.85 |                27.86 |           76.00
+ HORA PUNTA (06-09h) | Nacional      |   3058 |              1190 |          38.91 |                28.01 |           77.00
+ HORA PUNTA (18-21h) | Internacional |   4813 |              1887 |          39.21 |                29.36 |           80.00
+ HORA PUNTA (18-21h) | Nacional      |   2988 |              1147 |          38.39 |                28.34 |           77.20
+ NO PUNTA            | Internacional |   4855 |              1863 |          38.37 |                27.15 |           74.50
+ NO PUNTA            | Nacional      |   3137 |              1205 |          38.41 |                27.96 |           77.00
+(6 rows)
+
