@@ -1,0 +1,7 @@
+   categoria   | tarifa_tuua_soles | pasajeros | recaudacion_soles | share_pct 
+---------------+-------------------+-----------+-------------------+-----------
+ Internacional |             38.45 |      5769 |         221818.05 |     61.39
+ Nacional      |             12.50 |     10010 |         125125.00 |     34.63
+ Transito      |             18.00 |       798 |          14364.00 |      3.98
+(3 rows)
+

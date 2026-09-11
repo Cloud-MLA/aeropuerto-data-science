@@ -1,0 +1,14 @@
+ recurso_id | tipo  | nombre_tecnico_locacion  | incidencias_total | severidad_ponderada | incidencias_criticas | incidencias_abiertas | pct_abiertas | tpr_minutos_promedio 
+------------+-------+--------------------------+-------------------+---------------------+----------------------+----------------------+--------------+----------------------
+        485 | radar | Radar Central - Torre 27 |                59 |                 122 |                    4 |                   15 |        25.42 |               2558.2
+        461 | radar | Radar Norte - Torre 23   |                59 |                 122 |                    5 |                   17 |        28.81 |               2297.1
+        373 | radar | Radar Este - Torre 05    |                61 |                 121 |                    1 |                   13 |        21.31 |               2321.3
+        404 | radar | Radar Oeste - Torre 11   |                59 |                 115 |                    2 |                   22 |        37.29 |               2351.4
+         25 | manga | Espigon E - Puente E05   |                56 |                 112 |                    3 |                   20 |        35.71 |               2203.3
+        438 | radar | Radar Este - Torre 18    |                53 |                 112 |                    4 |                   17 |        32.08 |               2445.0
+        320 | manga | Espigon E - Puente E04   |                58 |                 111 |                    3 |                   11 |        18.97 |               2378.3
+         89 | manga | Espigon D - Puente D18   |                55 |                 111 |                    2 |                   17 |        30.91 |               2384.2
+        196 | manga | Espigon A - Puente A10   |                50 |                 111 |                    5 |                   13 |        26.00 |               2173.0
+        402 | radar | Radar Sur - Torre 11     |                55 |                 110 |                    4 |                   12 |        21.82 |               2129.3
+(10 rows)
+
