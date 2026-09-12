@@ -20,10 +20,15 @@ def get_db_url():
 
 
 def get_s3_client():
+    # os.getenv devuelve "" (no None) cuando la var viene vacia en el .env
+    # (caso LabInstanceProfile) — pasarle "" a boto3 rompe el fallback al
+    # default credential chain, asi que solo se incluyen si son truthy.
+    access_key = os.getenv("AWS_ACCESS_KEY_ID") or None
+    secret_key = os.getenv("AWS_SECRET_ACCESS_KEY") or None
     return boto3.client(
         "s3",
-        aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-        aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+        aws_access_key_id=access_key,
+        aws_secret_access_key=secret_key,
         region_name=os.getenv("AWS_REGION"),
     )
 
