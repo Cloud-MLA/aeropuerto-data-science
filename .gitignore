@@ -222,6 +222,10 @@ __marimo__/
 # Salida generada por seeds/ — no versionar (se regenera con SEED fijo)
 seeds/output/
 
+# Ingestion local (no versionar: salida dry-run y .env con credenciales)
+ingesta/ingesta-ms1/output/
+ingesta/ingesta-ms1/.env
+
 # Credenciales AWS y variables sensibles
 .aws/
 *.pem
