@@ -7,7 +7,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-QUERIES_DIR="$(cd "${SCRIPT_DIR}/../queries" && pwd)"
+QUERIES_DIR="$(cd "${SCRIPT_DIR}/../queries/postgres" && pwd)"
 EXPECTED_DIR="$(cd "${SCRIPT_DIR}/.." && pwd)/expected"
 
 mkdir -p "${EXPECTED_DIR}"
