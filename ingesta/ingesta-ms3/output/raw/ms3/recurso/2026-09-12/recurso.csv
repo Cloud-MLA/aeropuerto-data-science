@@ -1,0 +1,501 @@
+id,nombre_tecnico_locacion,tipo,estado_acople,longitud,clase_max,rango_alcance,frecuencia
+12,Espigon B - Puente B03,manga,Libre,13.13,E,,
+13,Espigon C - Puente C03,manga,Libre,33.68,A,,
+3,Espigon C - Puente C01,manga,Ocupado,35.45,A,,
+6,Espigon A - Puente A02,manga,Mantenimiento,12.18,F,,
+9,Espigon D - Puente D02,manga,Ocupado,13.28,E,,
+15,Espigon E - Puente E03,manga,Libre,28.6,D,,
+16,Espigon A - Puente A04,manga,Libre,13.17,A,,
+17,Espigon B - Puente B04,manga,Ocupado,35.2,E,,
+18,Espigon C - Puente C04,manga,Libre,41.75,F,,
+14,Espigon D - Puente D03,manga,Libre,29.71,B,,
+19,Espigon D - Puente D04,manga,Libre,17.23,A,,
+22,Espigon B - Puente B05,manga,Libre,26.37,B,,
+21,Espigon A - Puente A05,manga,Libre,41.46,E,,
+23,Espigon C - Puente C05,manga,Ocupado,37.23,E,,
+24,Espigon D - Puente D05,manga,Libre,23.45,D,,
+25,Espigon E - Puente E05,manga,Mantenimiento,28.64,A,,
+20,Espigon E - Puente E04,manga,Libre,27.64,F,,
+5,Espigon E - Puente E01,manga,Libre,13.71,B,,
+2,Espigon B - Puente B01,manga,Ocupado,27.4,E,,
+26,Espigon A - Puente A06,manga,Libre,35.68,D,,
+8,Espigon C - Puente C02,manga,Ocupado,31.24,B,,
+29,Espigon D - Puente D06,manga,Ocupado,29.2,F,,
+1,Espigon A - Puente A01,manga,Libre,41.44,E,,
+28,Espigon C - Puente C06,manga,Libre,31.38,E,,
+27,Espigon B - Puente B06,manga,Libre,28.67,A,,
+10,Espigon E - Puente E02,manga,Ocupado,13.46,F,,
+11,Espigon A - Puente A03,manga,Ocupado,15.71,C,,
+30,Espigon E - Puente E06,manga,Ocupado,41.47,B,,
+31,Espigon A - Puente A07,manga,Libre,13.39,D,,
+7,Espigon B - Puente B02,manga,Ocupado,29.71,B,,
+32,Espigon B - Puente B07,manga,Libre,18.16,B,,
+34,Espigon D - Puente D07,manga,Mantenimiento,41.61,C,,
+33,Espigon C - Puente C07,manga,Ocupado,13.55,F,,
+36,Espigon A - Puente A08,manga,Libre,21.42,C,,
+35,Espigon E - Puente E07,manga,Ocupado,31.33,A,,
+37,Espigon B - Puente B08,manga,Ocupado,39.94,E,,
+39,Espigon D - Puente D08,manga,Libre,34.85,E,,
+40,Espigon E - Puente E08,manga,Libre,32.54,B,,
+38,Espigon C - Puente C08,manga,Ocupado,24.06,C,,
+42,Espigon B - Puente B09,manga,Ocupado,17.18,B,,
+41,Espigon A - Puente A09,manga,Libre,22.0,C,,
+43,Espigon C - Puente C09,manga,Ocupado,23.91,A,,
+46,Espigon A - Puente A10,manga,Libre,24.12,E,,
+48,Espigon C - Puente C10,manga,Libre,38.33,A,,
+45,Espigon E - Puente E09,manga,Ocupado,29.07,A,,
+49,Espigon D - Puente D10,manga,Libre,38.58,F,,
+50,Espigon E - Puente E10,manga,Libre,41.85,D,,
+51,Espigon A - Puente A11,manga,Ocupado,29.34,C,,
+53,Espigon C - Puente C11,manga,Ocupado,20.11,E,,
+54,Espigon D - Puente D11,manga,Libre,34.09,F,,
+52,Espigon B - Puente B11,manga,Libre,15.66,E,,
+55,Espigon E - Puente E11,manga,Libre,12.4,D,,
+56,Espigon A - Puente A12,manga,Libre,18.95,E,,
+58,Espigon C - Puente C12,manga,Ocupado,16.45,E,,
+57,Espigon B - Puente B12,manga,Mantenimiento,18.64,B,,
+44,Espigon D - Puente D09,manga,Mantenimiento,17.13,A,,
+59,Espigon D - Puente D12,manga,Libre,31.13,E,,
+61,Espigon A - Puente A13,manga,Ocupado,21.45,F,,
+60,Espigon E - Puente E12,manga,Libre,32.24,A,,
+62,Espigon B - Puente B13,manga,Libre,25.73,D,,
+64,Espigon D - Puente D13,manga,Libre,27.14,A,,
+66,Espigon A - Puente A14,manga,Ocupado,22.46,F,,
+63,Espigon C - Puente C13,manga,Ocupado,32.23,A,,
+67,Espigon B - Puente B14,manga,Ocupado,29.16,F,,
+4,Espigon D - Puente D01,manga,Mantenimiento,20.94,A,,
+68,Espigon C - Puente C14,manga,Libre,20.75,C,,
+65,Espigon E - Puente E13,manga,Libre,26.46,A,,
+69,Espigon D - Puente D14,manga,Libre,21.64,A,,
+70,Espigon E - Puente E14,manga,Libre,25.36,F,,
+71,Espigon A - Puente A15,manga,Ocupado,25.9,A,,
+74,Espigon D - Puente D15,manga,Libre,20.83,C,,
+72,Espigon B - Puente B15,manga,Mantenimiento,21.41,C,,
+73,Espigon C - Puente C15,manga,Ocupado,30.07,C,,
+47,Espigon B - Puente B10,manga,Libre,12.3,B,,
+85,Espigon E - Puente E17,manga,Libre,33.66,C,,
+87,Espigon B - Puente B18,manga,Libre,17.05,B,,
+86,Espigon A - Puente A18,manga,Libre,33.73,B,,
+89,Espigon D - Puente D18,manga,Ocupado,31.85,C,,
+90,Espigon E - Puente E18,manga,Libre,39.83,B,,
+79,Espigon D - Puente D16,manga,Libre,19.13,E,,
+84,Espigon D - Puente D17,manga,Ocupado,12.04,B,,
+88,Espigon C - Puente C18,manga,Ocupado,14.31,A,,
+93,Espigon C - Puente C19,manga,Libre,22.38,E,,
+92,Espigon B - Puente B19,manga,Ocupado,19.43,F,,
+94,Espigon D - Puente D19,manga,Libre,28.99,C,,
+91,Espigon A - Puente A19,manga,Ocupado,40.93,F,,
+81,Espigon A - Puente A17,manga,Libre,31.01,B,,
+95,Espigon E - Puente E19,manga,Mantenimiento,34.08,E,,
+97,Espigon B - Puente B20,manga,Libre,40.83,F,,
+96,Espigon A - Puente A20,manga,Libre,12.56,E,,
+99,Espigon D - Puente D20,manga,Libre,14.82,E,,
+101,Espigon A - Puente A21,manga,Ocupado,35.71,F,,
+98,Espigon C - Puente C20,manga,Libre,18.34,D,,
+82,Espigon B - Puente B17,manga,Libre,39.09,D,,
+75,Espigon E - Puente E15,manga,Ocupado,17.62,E,,
+77,Espigon B - Puente B16,manga,Mantenimiento,41.33,F,,
+83,Espigon C - Puente C17,manga,Ocupado,26.52,D,,
+78,Espigon C - Puente C16,manga,Ocupado,25.2,E,,
+100,Espigon E - Puente E20,manga,Libre,32.35,D,,
+102,Espigon B - Puente B21,manga,Libre,34.8,D,,
+80,Espigon E - Puente E16,manga,Ocupado,24.4,D,,
+76,Espigon A - Puente A16,manga,Ocupado,34.13,A,,
+103,Espigon C - Puente C21,manga,Libre,15.94,E,,
+105,Espigon E - Puente E21,manga,Libre,27.21,D,,
+104,Espigon D - Puente D21,manga,Libre,18.77,B,,
+108,Espigon C - Puente C22,manga,Mantenimiento,36.76,A,,
+109,Espigon D - Puente D22,manga,Libre,28.05,B,,
+107,Espigon B - Puente B22,manga,Libre,18.12,B,,
+106,Espigon A - Puente A22,manga,Libre,41.7,E,,
+111,Espigon A - Puente A23,manga,Libre,14.01,F,,
+114,Espigon D - Puente D23,manga,Libre,41.84,F,,
+112,Espigon B - Puente B23,manga,Ocupado,30.54,C,,
+116,Espigon A - Puente A24,manga,Ocupado,40.13,F,,
+110,Espigon E - Puente E22,manga,Libre,17.67,C,,
+115,Espigon E - Puente E23,manga,Libre,12.59,F,,
+113,Espigon C - Puente C23,manga,Mantenimiento,38.1,C,,
+117,Espigon B - Puente B24,manga,Libre,29.71,B,,
+118,Espigon C - Puente C24,manga,Ocupado,39.37,A,,
+130,Espigon E - Puente E26,manga,Ocupado,30.75,F,,
+123,Espigon C - Puente C25,manga,Mantenimiento,32.6,E,,
+131,Espigon A - Puente A27,manga,Ocupado,40.92,B,,
+133,Espigon C - Puente C27,manga,Libre,24.59,B,,
+129,Espigon D - Puente D26,manga,Ocupado,26.98,D,,
+135,Espigon E - Puente E27,manga,Libre,33.66,B,,
+134,Espigon D - Puente D27,manga,Libre,32.12,D,,
+132,Espigon B - Puente B27,manga,Libre,20.39,D,,
+136,Espigon A - Puente A28,manga,Ocupado,28.6,F,,
+126,Espigon A - Puente A26,manga,Ocupado,39.5,F,,
+137,Espigon B - Puente B28,manga,Libre,12.11,A,,
+138,Espigon C - Puente C28,manga,Libre,15.04,B,,
+141,Espigon A - Puente A29,manga,Mantenimiento,22.3,C,,
+140,Espigon E - Puente E28,manga,Ocupado,30.1,A,,
+142,Espigon B - Puente B29,manga,Libre,33.22,E,,
+144,Espigon D - Puente D29,manga,Ocupado,20.23,D,,
+139,Espigon D - Puente D28,manga,Libre,21.48,A,,
+128,Espigon C - Puente C26,manga,Ocupado,25.38,E,,
+124,Espigon D - Puente D25,manga,Ocupado,37.7,A,,
+143,Espigon C - Puente C29,manga,Libre,21.97,A,,
+125,Espigon E - Puente E25,manga,Libre,36.54,D,,
+120,Espigon E - Puente E24,manga,Ocupado,37.04,B,,
+127,Espigon B - Puente B26,manga,Libre,26.95,B,,
+119,Espigon D - Puente D24,manga,Libre,24.62,E,,
+121,Espigon A - Puente A25,manga,Libre,23.76,D,,
+122,Espigon B - Puente B25,manga,Mantenimiento,15.59,B,,
+147,Espigon B - Puente B30,manga,Mantenimiento,40.97,E,,
+145,Espigon E - Puente E29,manga,Mantenimiento,41.03,A,,
+148,Espigon C - Puente C30,manga,Ocupado,40.92,D,,
+149,Espigon D - Puente D30,manga,Libre,15.98,C,,
+146,Espigon A - Puente A30,manga,Libre,22.68,D,,
+150,Espigon E - Puente E30,manga,Libre,41.3,A,,
+151,Espigon A - Puente A01,manga,Mantenimiento,13.15,A,,
+154,Espigon D - Puente D01,manga,Libre,33.57,F,,
+152,Espigon B - Puente B01,manga,Libre,18.43,E,,
+156,Espigon A - Puente A02,manga,Libre,36.31,B,,
+155,Espigon E - Puente E01,manga,Libre,28.72,B,,
+153,Espigon C - Puente C01,manga,Libre,34.88,C,,
+157,Espigon B - Puente B02,manga,Ocupado,28.41,E,,
+158,Espigon C - Puente C02,manga,Libre,22.47,F,,
+159,Espigon D - Puente D02,manga,Ocupado,41.4,D,,
+161,Espigon A - Puente A03,manga,Ocupado,25.35,E,,
+160,Espigon E - Puente E02,manga,Libre,26.16,B,,
+163,Espigon C - Puente C03,manga,Libre,27.54,D,,
+164,Espigon D - Puente D03,manga,Ocupado,20.09,C,,
+162,Espigon B - Puente B03,manga,Ocupado,26.74,D,,
+165,Espigon E - Puente E03,manga,Libre,14.43,D,,
+168,Espigon C - Puente C04,manga,Ocupado,14.96,E,,
+167,Espigon B - Puente B04,manga,Libre,35.67,C,,
+166,Espigon A - Puente A04,manga,Libre,24.41,D,,
+170,Espigon E - Puente E04,manga,Libre,30.82,D,,
+169,Espigon D - Puente D04,manga,Ocupado,25.1,B,,
+171,Espigon A - Puente A05,manga,Ocupado,34.25,C,,
+177,Espigon B - Puente B06,manga,Ocupado,14.85,C,,
+181,Espigon A - Puente A07,manga,Libre,13.77,C,,
+173,Espigon C - Puente C05,manga,Ocupado,40.12,A,,
+183,Espigon C - Puente C07,manga,Ocupado,36.82,F,,
+182,Espigon B - Puente B07,manga,Ocupado,41.59,E,,
+185,Espigon E - Puente E07,manga,Libre,28.4,D,,
+184,Espigon D - Puente D07,manga,Mantenimiento,35.49,B,,
+187,Espigon B - Puente B08,manga,Ocupado,13.27,A,,
+189,Espigon D - Puente D08,manga,Mantenimiento,28.39,C,,
+186,Espigon A - Puente A08,manga,Libre,29.73,F,,
+188,Espigon C - Puente C08,manga,Mantenimiento,26.47,F,,
+190,Espigon E - Puente E08,manga,Ocupado,13.25,C,,
+192,Espigon B - Puente B09,manga,Ocupado,34.87,F,,
+194,Espigon D - Puente D09,manga,Libre,14.14,D,,
+180,Espigon E - Puente E06,manga,Libre,41.35,E,,
+172,Espigon B - Puente B05,manga,Libre,28.35,A,,
+197,Espigon B - Puente B10,manga,Libre,19.41,E,,
+198,Espigon C - Puente C10,manga,Libre,20.7,B,,
+176,Espigon A - Puente A06,manga,Ocupado,26.35,D,,
+200,Espigon E - Puente E10,manga,Ocupado,29.71,F,,
+178,Espigon C - Puente C06,manga,Libre,37.55,C,,
+179,Espigon D - Puente D06,manga,Ocupado,12.94,C,,
+174,Espigon D - Puente D05,manga,Ocupado,34.02,E,,
+201,Espigon A - Puente A11,manga,Ocupado,40.0,A,,
+175,Espigon E - Puente E05,manga,Mantenimiento,24.54,A,,
+191,Espigon A - Puente A09,manga,Ocupado,31.74,C,,
+193,Espigon C - Puente C09,manga,Libre,36.67,F,,
+196,Espigon A - Puente A10,manga,Libre,37.19,B,,
+199,Espigon D - Puente D10,manga,Libre,40.02,E,,
+195,Espigon E - Puente E09,manga,Ocupado,30.29,D,,
+202,Espigon B - Puente B11,manga,Libre,33.93,C,,
+203,Espigon C - Puente C11,manga,Libre,18.15,F,,
+204,Espigon D - Puente D11,manga,Libre,25.58,C,,
+206,Espigon A - Puente A12,manga,Libre,34.45,D,,
+207,Espigon B - Puente B12,manga,Ocupado,26.77,C,,
+209,Espigon D - Puente D12,manga,Libre,37.29,A,,
+210,Espigon E - Puente E12,manga,Libre,18.17,F,,
+208,Espigon C - Puente C12,manga,Libre,16.85,F,,
+213,Espigon C - Puente C13,manga,Libre,21.81,D,,
+215,Espigon E - Puente E13,manga,Libre,24.62,F,,
+211,Espigon A - Puente A13,manga,Ocupado,36.71,A,,
+214,Espigon D - Puente D13,manga,Ocupado,36.15,D,,
+217,Espigon B - Puente B14,manga,Ocupado,28.79,B,,
+218,Espigon C - Puente C14,manga,Ocupado,31.1,F,,
+220,Espigon E - Puente E14,manga,Libre,13.68,D,,
+216,Espigon A - Puente A14,manga,Libre,17.93,B,,
+219,Espigon D - Puente D14,manga,Ocupado,34.84,D,,
+222,Espigon B - Puente B15,manga,Ocupado,14.18,B,,
+223,Espigon C - Puente C15,manga,Libre,23.22,A,,
+224,Espigon D - Puente D15,manga,Ocupado,29.09,E,,
+205,Espigon E - Puente E11,manga,Libre,26.5,B,,
+221,Espigon A - Puente A15,manga,Libre,25.72,C,,
+225,Espigon E - Puente E15,manga,Libre,21.76,B,,
+212,Espigon B - Puente B13,manga,Libre,39.34,D,,
+230,Espigon E - Puente E16,manga,Ocupado,29.16,B,,
+228,Espigon C - Puente C16,manga,Libre,20.07,E,,
+226,Espigon A - Puente A16,manga,Libre,34.73,A,,
+238,Espigon C - Puente C18,manga,Ocupado,40.24,D,,
+239,Espigon D - Puente D18,manga,Libre,40.57,A,,
+240,Espigon E - Puente E18,manga,Libre,18.6,C,,
+241,Espigon A - Puente A19,manga,Libre,32.21,C,,
+243,Espigon C - Puente C19,manga,Libre,17.44,E,,
+242,Espigon B - Puente B19,manga,Ocupado,29.46,B,,
+246,Espigon A - Puente A20,manga,Ocupado,24.45,F,,
+236,Espigon A - Puente A18,manga,Libre,34.71,B,,
+237,Espigon B - Puente B18,manga,Libre,32.77,E,,
+248,Espigon C - Puente C20,manga,Libre,34.95,F,,
+249,Espigon D - Puente D20,manga,Libre,16.98,E,,
+227,Espigon B - Puente B16,manga,Libre,14.66,F,,
+251,Espigon A - Puente A21,manga,Libre,17.79,B,,
+250,Espigon E - Puente E20,manga,Libre,41.19,B,,
+254,Espigon D - Puente D21,manga,Libre,18.15,C,,
+252,Espigon B - Puente B21,manga,Libre,16.69,F,,
+233,Espigon C - Puente C17,manga,Libre,39.42,C,,
+253,Espigon C - Puente C21,manga,Libre,39.72,D,,
+235,Espigon E - Puente E17,manga,Ocupado,31.28,B,,
+244,Espigon D - Puente D19,manga,Libre,24.61,A,,
+234,Espigon D - Puente D17,manga,Libre,30.1,A,,
+247,Espigon B - Puente B20,manga,Libre,23.07,E,,
+232,Espigon B - Puente B17,manga,Libre,39.17,B,,
+229,Espigon D - Puente D16,manga,Mantenimiento,15.88,F,,
+231,Espigon A - Puente A17,manga,Ocupado,16.84,F,,
+257,Espigon B - Puente B22,manga,Libre,21.31,B,,
+256,Espigon A - Puente A22,manga,Ocupado,22.44,A,,
+255,Espigon E - Puente E21,manga,Libre,30.3,F,,
+258,Espigon C - Puente C22,manga,Libre,26.32,C,,
+261,Espigon A - Puente A23,manga,Ocupado,27.39,B,,
+259,Espigon D - Puente D22,manga,Libre,25.97,A,,
+262,Espigon B - Puente B23,manga,Ocupado,15.2,D,,
+260,Espigon E - Puente E22,manga,Libre,40.29,E,,
+264,Espigon D - Puente D23,manga,Ocupado,32.81,B,,
+266,Espigon A - Puente A24,manga,Libre,33.59,E,,
+265,Espigon E - Puente E23,manga,Libre,26.36,C,,
+267,Espigon B - Puente B24,manga,Libre,31.08,A,,
+263,Espigon C - Puente C23,manga,Ocupado,26.26,A,,
+268,Espigon C - Puente C24,manga,Libre,21.09,E,,
+269,Espigon D - Puente D24,manga,Mantenimiento,28.61,F,,
+271,Espigon A - Puente A25,manga,Ocupado,36.09,B,,
+272,Espigon B - Puente B25,manga,Libre,34.79,C,,
+245,Espigon E - Puente E19,manga,Libre,37.51,F,,
+276,Espigon A - Puente A26,manga,Ocupado,19.22,B,,
+281,Espigon A - Puente A27,manga,Libre,31.51,A,,
+274,Espigon D - Puente D25,manga,Ocupado,20.99,A,,
+270,Espigon E - Puente E24,manga,Libre,18.1,B,,
+275,Espigon E - Puente E25,manga,Libre,12.08,C,,
+278,Espigon C - Puente C26,manga,Ocupado,31.14,A,,
+282,Espigon B - Puente B27,manga,Libre,35.16,D,,
+284,Espigon D - Puente D27,manga,Mantenimiento,32.86,C,,
+286,Espigon A - Puente A28,manga,Libre,26.96,D,,
+285,Espigon E - Puente E27,manga,Mantenimiento,29.7,B,,
+287,Espigon B - Puente B28,manga,Libre,13.8,E,,
+288,Espigon C - Puente C28,manga,Ocupado,33.7,F,,
+289,Espigon D - Puente D28,manga,Ocupado,34.37,E,,
+292,Espigon B - Puente B29,manga,Mantenimiento,20.68,A,,
+290,Espigon E - Puente E28,manga,Ocupado,12.07,F,,
+291,Espigon A - Puente A29,manga,Mantenimiento,35.56,F,,
+283,Espigon C - Puente C27,manga,Libre,22.84,D,,
+273,Espigon C - Puente C25,manga,Ocupado,39.63,D,,
+299,Espigon D - Puente D30,manga,Ocupado,26.19,A,,
+295,Espigon E - Puente E29,manga,Ocupado,41.67,C,,
+277,Espigon B - Puente B26,manga,Libre,28.27,F,,
+300,Espigon E - Puente E30,manga,Ocupado,26.91,D,,
+301,Espigon A - Puente A01,manga,Ocupado,23.91,C,,
+302,Espigon B - Puente B01,manga,Ocupado,19.59,C,,
+303,Espigon C - Puente C01,manga,Ocupado,38.9,A,,
+297,Espigon B - Puente B30,manga,Ocupado,20.86,B,,
+304,Espigon D - Puente D01,manga,Ocupado,36.94,B,,
+296,Espigon A - Puente A30,manga,Ocupado,24.38,A,,
+305,Espigon E - Puente E01,manga,Ocupado,32.52,A,,
+298,Espigon C - Puente C30,manga,Libre,41.21,B,,
+307,Espigon B - Puente B02,manga,Libre,22.6,A,,
+306,Espigon A - Puente A02,manga,Libre,40.54,C,,
+310,Espigon E - Puente E02,manga,Ocupado,26.04,E,,
+309,Espigon D - Puente D02,manga,Libre,23.83,B,,
+293,Espigon C - Puente C29,manga,Libre,22.42,E,,
+280,Espigon E - Puente E26,manga,Libre,31.58,F,,
+294,Espigon D - Puente D29,manga,Ocupado,27.66,A,,
+279,Espigon D - Puente D26,manga,Ocupado,40.86,A,,
+308,Espigon C - Puente C02,manga,Libre,15.76,A,,
+313,Espigon C - Puente C03,manga,Ocupado,40.74,A,,
+312,Espigon B - Puente B03,manga,Ocupado,15.21,F,,
+311,Espigon A - Puente A03,manga,Libre,35.14,D,,
+314,Espigon D - Puente D03,manga,Libre,37.57,C,,
+315,Espigon E - Puente E03,manga,Libre,21.35,C,,
+317,Espigon B - Puente B04,manga,Libre,17.24,A,,
+324,Espigon D - Puente D05,manga,Mantenimiento,37.5,D,,
+325,Espigon E - Puente E05,manga,Libre,40.91,A,,
+326,Espigon A - Puente A06,manga,Libre,17.77,B,,
+328,Espigon C - Puente C06,manga,Libre,30.69,D,,
+329,Espigon D - Puente D06,manga,Ocupado,28.97,C,,
+318,Espigon C - Puente C04,manga,Libre,26.77,B,,
+320,Espigon E - Puente E04,manga,Libre,41.93,F,,
+330,Espigon E - Puente E06,manga,Libre,15.09,E,,
+331,Espigon A - Puente A07,manga,Ocupado,34.73,C,,
+332,Espigon B - Puente B07,manga,Libre,12.63,B,,
+333,Espigon C - Puente C07,manga,Ocupado,17.88,C,,
+327,Espigon B - Puente B06,manga,Libre,13.33,B,,
+334,Espigon D - Puente D07,manga,Ocupado,20.76,D,,
+335,Espigon E - Puente E07,manga,Ocupado,20.82,C,,
+316,Espigon A - Puente A04,manga,Libre,27.38,E,,
+321,Espigon A - Puente A05,manga,Ocupado,30.53,B,,
+319,Espigon D - Puente D04,manga,Ocupado,41.43,D,,
+322,Espigon B - Puente B05,manga,Libre,41.95,D,,
+323,Espigon C - Puente C05,manga,Libre,24.41,D,,
+347,Espigon B - Puente B10,manga,Libre,34.09,B,,
+341,Espigon A - Puente A09,manga,Libre,39.81,E,,
+348,Espigon C - Puente C10,manga,Libre,38.88,B,,
+349,Espigon D - Puente D10,manga,Ocupado,18.43,A,,
+350,Espigon E - Puente E10,manga,Libre,40.05,B,,
+352,Radar Sur - Torre 01,radar,,,,370,Banda X
+351,Radar Norte - Torre 01,radar,,,,305,Banda X
+353,Radar Este - Torre 01,radar,,,,299,Banda S
+355,Radar Central - Torre 01,radar,,,,249,Banda X
+356,Radar Norte - Torre 02,radar,,,,213,Banda L
+354,Radar Oeste - Torre 01,radar,,,,229,Banda L
+338,Espigon C - Puente C08,manga,Libre,17.16,D,,
+357,Radar Sur - Torre 02,radar,,,,375,Banda L
+358,Radar Este - Torre 02,radar,,,,162,Banda X
+359,Radar Oeste - Torre 02,radar,,,,260,Banda C
+360,Radar Central - Torre 02,radar,,,,274,Banda L
+337,Espigon B - Puente B08,manga,Libre,24.62,A,,
+339,Espigon D - Puente D08,manga,Mantenimiento,41.64,A,,
+364,Radar Oeste - Torre 03,radar,,,,101,Banda X
+363,Radar Este - Torre 03,radar,,,,299,Banda S
+340,Espigon E - Puente E08,manga,Mantenimiento,37.98,F,,
+361,Radar Norte - Torre 03,radar,,,,391,Banda S
+336,Espigon A - Puente A08,manga,Mantenimiento,30.09,C,,
+362,Radar Sur - Torre 03,radar,,,,325,Banda S
+343,Espigon C - Puente C09,manga,Libre,26.0,A,,
+365,Radar Central - Torre 03,radar,,,,230,Banda L
+346,Espigon A - Puente A10,manga,Libre,12.44,C,,
+366,Radar Norte - Torre 04,radar,,,,275,Banda S
+342,Espigon B - Puente B09,manga,Ocupado,38.36,D,,
+367,Radar Sur - Torre 04,radar,,,,295,Banda L
+369,Radar Oeste - Torre 04,radar,,,,175,Banda S
+345,Espigon E - Puente E09,manga,Mantenimiento,14.39,D,,
+371,Radar Norte - Torre 05,radar,,,,134,Banda C
+372,Radar Sur - Torre 05,radar,,,,276,Banda L
+373,Radar Este - Torre 05,radar,,,,86,Banda S
+370,Radar Central - Torre 04,radar,,,,188,Banda S
+374,Radar Oeste - Torre 05,radar,,,,211,Banda S
+375,Radar Central - Torre 05,radar,,,,314,Banda L
+376,Radar Norte - Torre 06,radar,,,,347,Banda C
+344,Espigon D - Puente D09,manga,Libre,23.7,B,,
+368,Radar Este - Torre 04,radar,,,,252,Banda C
+377,Radar Sur - Torre 06,radar,,,,142,Banda S
+389,Radar Oeste - Torre 08,radar,,,,198,Banda X
+390,Radar Central - Torre 08,radar,,,,354,Banda X
+391,Radar Norte - Torre 09,radar,,,,83,Banda L
+382,Radar Sur - Torre 07,radar,,,,158,Banda X
+385,Radar Central - Torre 07,radar,,,,183,Banda C
+392,Radar Sur - Torre 09,radar,,,,188,Banda C
+393,Radar Este - Torre 09,radar,,,,400,Banda L
+396,Radar Norte - Torre 10,radar,,,,169,Banda S
+387,Radar Sur - Torre 08,radar,,,,117,Banda L
+395,Radar Central - Torre 09,radar,,,,110,Banda L
+397,Radar Sur - Torre 10,radar,,,,124,Banda X
+399,Radar Oeste - Torre 10,radar,,,,192,Banda X
+394,Radar Oeste - Torre 09,radar,,,,203,Banda L
+398,Radar Este - Torre 10,radar,,,,257,Banda S
+400,Radar Central - Torre 10,radar,,,,391,Banda C
+401,Radar Norte - Torre 11,radar,,,,387,Banda C
+402,Radar Sur - Torre 11,radar,,,,280,Banda L
+378,Radar Este - Torre 06,radar,,,,182,Banda C
+386,Radar Norte - Torre 08,radar,,,,194,Banda C
+379,Radar Oeste - Torre 06,radar,,,,86,Banda S
+388,Radar Este - Torre 08,radar,,,,160,Banda S
+380,Radar Central - Torre 06,radar,,,,283,Banda X
+383,Radar Este - Torre 07,radar,,,,356,Banda S
+405,Radar Central - Torre 11,radar,,,,319,Banda X
+381,Radar Norte - Torre 07,radar,,,,206,Banda S
+384,Radar Oeste - Torre 07,radar,,,,282,Banda C
+406,Radar Norte - Torre 12,radar,,,,118,Banda C
+404,Radar Oeste - Torre 11,radar,,,,305,Banda L
+403,Radar Este - Torre 11,radar,,,,189,Banda X
+408,Radar Este - Torre 12,radar,,,,261,Banda L
+407,Radar Sur - Torre 12,radar,,,,207,Banda X
+409,Radar Oeste - Torre 12,radar,,,,338,Banda C
+410,Radar Central - Torre 12,radar,,,,359,Banda X
+411,Radar Norte - Torre 13,radar,,,,234,Banda S
+412,Radar Sur - Torre 13,radar,,,,372,Banda C
+413,Radar Este - Torre 13,radar,,,,376,Banda X
+414,Radar Oeste - Torre 13,radar,,,,179,Banda C
+416,Radar Norte - Torre 14,radar,,,,264,Banda C
+418,Radar Este - Torre 14,radar,,,,337,Banda X
+415,Radar Central - Torre 13,radar,,,,349,Banda X
+417,Radar Sur - Torre 14,radar,,,,141,Banda S
+419,Radar Oeste - Torre 14,radar,,,,206,Banda X
+431,Radar Norte - Torre 17,radar,,,,271,Banda X
+423,Radar Este - Torre 15,radar,,,,178,Banda C
+432,Radar Sur - Torre 17,radar,,,,235,Banda X
+433,Radar Este - Torre 17,radar,,,,247,Banda X
+434,Radar Oeste - Torre 17,radar,,,,212,Banda C
+436,Radar Norte - Torre 18,radar,,,,323,Banda L
+430,Radar Central - Torre 16,radar,,,,329,Banda L
+435,Radar Central - Torre 17,radar,,,,289,Banda X
+437,Radar Sur - Torre 18,radar,,,,332,Banda L
+438,Radar Este - Torre 18,radar,,,,369,Banda S
+439,Radar Oeste - Torre 18,radar,,,,164,Banda S
+421,Radar Norte - Torre 15,radar,,,,348,Banda S
+441,Radar Norte - Torre 19,radar,,,,142,Banda X
+440,Radar Central - Torre 18,radar,,,,94,Banda L
+443,Radar Este - Torre 19,radar,,,,97,Banda S
+442,Radar Sur - Torre 19,radar,,,,324,Banda X
+444,Radar Oeste - Torre 19,radar,,,,209,Banda C
+420,Radar Central - Torre 14,radar,,,,238,Banda C
+426,Radar Norte - Torre 16,radar,,,,229,Banda S
+427,Radar Sur - Torre 16,radar,,,,241,Banda S
+422,Radar Sur - Torre 15,radar,,,,269,Banda L
+425,Radar Central - Torre 15,radar,,,,387,Banda X
+428,Radar Este - Torre 16,radar,,,,280,Banda L
+429,Radar Oeste - Torre 16,radar,,,,389,Banda C
+450,Radar Central - Torre 20,radar,,,,270,Banda C
+451,Radar Norte - Torre 21,radar,,,,188,Banda L
+424,Radar Oeste - Torre 15,radar,,,,331,Banda S
+453,Radar Este - Torre 21,radar,,,,248,Banda L
+452,Radar Sur - Torre 21,radar,,,,295,Banda C
+454,Radar Oeste - Torre 21,radar,,,,296,Banda C
+448,Radar Este - Torre 20,radar,,,,199,Banda C
+458,Radar Este - Torre 22,radar,,,,174,Banda C
+449,Radar Oeste - Torre 20,radar,,,,198,Banda X
+456,Radar Norte - Torre 22,radar,,,,239,Banda X
+457,Radar Sur - Torre 22,radar,,,,103,Banda S
+460,Radar Central - Torre 22,radar,,,,370,Banda C
+455,Radar Central - Torre 21,radar,,,,183,Banda C
+459,Radar Oeste - Torre 22,radar,,,,110,Banda C
+462,Radar Sur - Torre 23,radar,,,,382,Banda L
+465,Radar Central - Torre 23,radar,,,,121,Banda X
+466,Radar Norte - Torre 24,radar,,,,336,Banda C
+461,Radar Norte - Torre 23,radar,,,,170,Banda S
+464,Radar Oeste - Torre 23,radar,,,,277,Banda X
+463,Radar Este - Torre 23,radar,,,,294,Banda C
+446,Radar Norte - Torre 20,radar,,,,350,Banda S
+447,Radar Sur - Torre 20,radar,,,,331,Banda X
+468,Radar Este - Torre 24,radar,,,,398,Banda S
+470,Radar Central - Torre 24,radar,,,,200,Banda C
+473,Radar Este - Torre 25,radar,,,,215,Banda X
+445,Radar Central - Torre 19,radar,,,,230,Banda C
+467,Radar Sur - Torre 24,radar,,,,341,Banda X
+469,Radar Oeste - Torre 24,radar,,,,103,Banda L
+479,Radar Oeste - Torre 26,radar,,,,366,Banda C
+481,Radar Norte - Torre 27,radar,,,,183,Banda L
+483,Radar Este - Torre 27,radar,,,,342,Banda X
+484,Radar Oeste - Torre 27,radar,,,,282,Banda X
+480,Radar Central - Torre 26,radar,,,,273,Banda C
+486,Radar Norte - Torre 28,radar,,,,177,Banda S
+487,Radar Sur - Torre 28,radar,,,,280,Banda L
+471,Radar Norte - Torre 25,radar,,,,181,Banda L
+488,Radar Este - Torre 28,radar,,,,391,Banda L
+485,Radar Central - Torre 27,radar,,,,276,Banda L
+489,Radar Oeste - Torre 28,radar,,,,288,Banda L
+482,Radar Sur - Torre 27,radar,,,,338,Banda L
+490,Radar Central - Torre 28,radar,,,,380,Banda X
+478,Radar Este - Torre 26,radar,,,,261,Banda X
+492,Radar Sur - Torre 29,radar,,,,386,Banda L
+494,Radar Oeste - Torre 29,radar,,,,119,Banda S
+491,Radar Norte - Torre 29,radar,,,,104,Banda S
+496,Radar Norte - Torre 30,radar,,,,228,Banda C
+497,Radar Sur - Torre 30,radar,,,,220,Banda C
+475,Radar Central - Torre 25,radar,,,,124,Banda C
+493,Radar Este - Torre 29,radar,,,,221,Banda S
+495,Radar Central - Torre 29,radar,,,,90,Banda X
+474,Radar Oeste - Torre 25,radar,,,,252,Banda S
+476,Radar Norte - Torre 26,radar,,,,105,Banda X
+477,Radar Sur - Torre 26,radar,,,,150,Banda L
+498,Radar Este - Torre 30,radar,,,,162,Banda L
+472,Radar Sur - Torre 25,radar,,,,226,Banda X
+499,Radar Oeste - Torre 30,radar,,,,161,Banda C
+500,Radar Central - Torre 30,radar,,,,313,Banda S
