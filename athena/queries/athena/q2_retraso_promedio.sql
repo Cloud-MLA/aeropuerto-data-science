@@ -5,10 +5,13 @@ WITH retrasos AS (
     SELECT
         v.id,
         v.numero AS num_vuelo,
-        v.hora_programada,
+        -- hora_programada/hora_real llegan como varchar ISO 8601 con offset (2026-09-30
+        -- 06:15:00+00:00) porque el crawler de Glue las infiere como string; from_iso8601_timestamp
+        -- las parsea sin tener que ajustar el tipo de columna en el catalogo (DS-10).
+        from_iso8601_timestamp(replace(v.hora_programada, ' ', 'T')) AS hora_programada,
         v.aerolinea_ruc,
-        CAST(date_diff('minute', v.hora_programada, v.hora_real) AS DOUBLE) AS retraso_min,
-        CASE CAST(EXTRACT(HOUR FROM v.hora_programada) AS INTEGER) / 6
+        CAST(date_diff('minute', from_iso8601_timestamp(replace(v.hora_programada, ' ', 'T')), from_iso8601_timestamp(replace(v.hora_real, ' ', 'T'))) AS DOUBLE) AS retraso_min,
+        CASE CAST(EXTRACT(HOUR FROM from_iso8601_timestamp(replace(v.hora_programada, ' ', 'T'))) AS INTEGER) / 6
              WHEN 0 THEN 'Madrugada (0-6)'
              WHEN 1 THEN 'Manana (6-12)'
              WHEN 2 THEN 'Tarde (12-18)'
@@ -18,6 +21,7 @@ WITH retrasos AS (
     WHERE v.tipo = 'Internacional'
       AND v.estado IN ('Retrasado', 'Despegado', 'Aterrizado')
       AND v.hora_real IS NOT NULL
+      AND v.hora_real != ''
 )
 SELECT
     'GLOBAL' AS grupo,
