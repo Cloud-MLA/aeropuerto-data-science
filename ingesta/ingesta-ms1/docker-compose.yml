@@ -1,0 +1,18 @@
+# Contenedor de ingesta MS1 (pasajeros): MySQL -> CSV -> S3.
+# Es un job one-shot (ingesta.py corre una vez y termina), no un servicio.
+#
+# Uso en VM-INGESTA:
+#   docker compose run --rm ingesta            # corrida real (sube a S3)
+#   docker compose run --rm ingesta --dry-run  # valida conexion a MySQL sin tocar S3
+#
+# Para correrlo periodicamente (diario), agenda con cron en el host:
+#   0 3 * * * cd /opt/ingesta && docker compose run --rm ingesta >> /var/log/ingesta-ms1.log 2>&1
+
+services:
+  ingesta:
+    build: .
+    image: ingesta-ms1
+    container_name: ingesta-ms1
+    env_file:
+      - .env
+    restart: "no"
