@@ -7,12 +7,15 @@ WITH incidencias_ventana AS (
     SELECT
         i.id             AS incidencia_id,
         i.gravedad,
-        i.fecha_reporte,
-        i.fecha_cierre,
+        -- fecha_reporte/fecha_cierre llegan como varchar ISO 8601 ("...T...Z") porque el
+        -- crawler de Glue las infiere como string, no timestamp (mismo ajuste que en Q2/Q5 -- DS-10).
+        from_iso8601_timestamp(i.fecha_reporte) AS fecha_reporte,
+        CASE WHEN i.fecha_cierre IS NOT NULL AND i.fecha_cierre != ''
+             THEN from_iso8601_timestamp(i.fecha_cierre) END AS fecha_cierre,
         iar.id_recurso
     FROM incidencia i
     JOIN incidencia_afecta_recurso iar ON iar.id_incidencia = i.id
-    WHERE i.fecha_reporte > current_timestamp - INTERVAL '7' DAY
+    WHERE from_iso8601_timestamp(i.fecha_reporte) > current_timestamp - INTERVAL '7' DAY
 )
 SELECT
     r.id                         AS recurso_id,

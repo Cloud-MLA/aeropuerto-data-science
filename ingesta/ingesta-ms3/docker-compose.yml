@@ -1,0 +1,18 @@
+# Contenedor de ingesta MS3 (infraestructura/incidencias): MongoDB -> aplanado -> CSV -> S3.
+# Es un job one-shot (ingesta.py corre una vez y termina), no un servicio. DS-08.
+#
+# Uso en VM-INGESTA:
+#   docker compose run --rm ingesta            # corrida real (sube a S3)
+#   docker compose run --rm ingesta --dry-run  # valida conexion a Mongo sin tocar S3
+#
+# Aplanado: replica athena/local-postgres/aplanar_ms3.py (Fabricio), la referencia ya
+# validada localmente -- aqui lee la misma forma de documento pero de un Mongo real.
+
+services:
+  ingesta:
+    build: .
+    image: ingesta-ms3
+    container_name: ingesta-ms3
+    env_file:
+      - .env
+    restart: "no"
