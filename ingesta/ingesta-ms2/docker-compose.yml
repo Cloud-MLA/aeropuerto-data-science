@@ -1,0 +1,9 @@
+services:
+  ingesta-ms2:
+    build: .
+    image: marianoutec/ingesta-ms2:latest
+    container_name: ingesta-ms2
+    env_file:
+      - .env
+    volumes:
+      - ./output:/ingesta/output
